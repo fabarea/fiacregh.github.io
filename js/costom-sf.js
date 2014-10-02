@@ -1,13 +1,3 @@
-(function($) {
-	$(function() {
-
-		console.log('Salut Fiacre. Regarde je m\'affiche dans la Web Console');
-	});
-})(jQuery);
-
-
-
-
 jQuery(function ($) {
 	$('.panel-heading span.clickable').on("click", function (e) {
 		if ($(this).hasClass('panel-collapsed')) {
